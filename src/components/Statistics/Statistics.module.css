@@ -1,0 +1,40 @@
+.statistics {
+    width: 250px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.title {
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.stat-list {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    width: 100%;
+
+}
+
+.span {
+    display: block;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+.label {
+    composes: span;
+    /* background: #555; */
+}
+
+.percentage {
+    composes: span;
+    /* background: #888; */
+}

@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    margin-bottom: 16px;
+}
+
+.status {
+    width: 26px;
+    height: 26px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.onLine {
+    background: #45b24a;
+}
+
+.offLine {
+    background: #f9564d;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 6px;
+    margin: 8px 18px 8px 0;
+}
