@@ -15,13 +15,12 @@ const Statistics = ({ title, stats }) => {
             {title ? <h2 className={styles.title}>{title}</h2> : null}
 
             <ul className={styles["stat-list"]}>
-                {stats.map(item => {
-                    return (
-                        <li key={item.id} className={styles.item} style={{ backgroundColor: classRandomColor() }}>
-                            <span className={styles.label}>{item.label}</span>
-                            <span className={styles.percentage}>{item.percentage}%</span>
-                        </li>)
-                })}
+                {stats.map(item => (
+                    <li key={item.id} className={styles.item} style={{ backgroundColor: classRandomColor() }}>
+                        <span className={styles.label}>{item.label}</span>
+                        <span className={styles.percentage}>{item.percentage}%</span>
+                    </li>)
+                )}
             </ul>
         </section>
     )

@@ -18,21 +18,18 @@ export default function App() {
                     tag={user.tag}
                     location={user.location}
                     avatar={user.avatar}
-                    stats={user.stats}>
-                </Profile>
+                    stats={user.stats}
+                />
             </Section>
 
-            <Statistics title="Upload stats" stats={statisticalData}>
-            </Statistics>
+            <Statistics title="Upload stats" stats={statisticalData} />
 
             <Section>
-                <FriendList friends={friendsData}>
-                </FriendList>
+                <FriendList friends={friendsData} />
             </Section>
 
             <Section>
-                <TransactionHistory items={TransactionHistoryData}>
-                </TransactionHistory>
+                <TransactionHistory items={TransactionHistoryData} />
             </Section>
         </>
     )
